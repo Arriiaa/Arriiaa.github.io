@@ -3,8 +3,8 @@ secondary_name: ""
 navbar_name: "Yiran Wang"
 
 positions:
-- logo: /assets/images/badges/neu.png  # Logo is optional
-  name: +1 7815021335
+#- logo: /assets/images/badges/neu.png  # Logo is optional
+- name: +1 7815021335
 - name: Boston
 
 
@@ -36,21 +36,29 @@ portrait_url: /assets/images/photos/portrait.jpg
 
 education:
 - name: Northeastern University
-  logo: /assets/images/badges/neu.png
+#  logo: /assets/images/badges/neu.png
   position: >- 
     College of Arts Media and Design <br/>
     Master Student
   date: Sep. 2024 - present
 - name: Chongqing University Of Posts And Telecommunications
-  logo: /assets/images/badges/cqupt.png
+#  logo: /assets/images/badges/cqupt.png
   position: B.S. in Computer Science
   date: Sep. 2018 - Jul. 2022
 
 experience:
-- name: Peking University
-  logo: /assets/images/badges/neu.png
-  position: Research Intern
-  date: Sep. 2019 - Jul. 2021
+- name: Zhuhai Kingsoft Digital Network Technology Co., Ltd
+#  logo: /assets/images/badges/neu.png
+  position: Game Designer Intern
+  date: Jun. 2021 - Jul. 2021
+- name: NetEase(Hangzhou) Network Co., LTD
+#  logo: /assets/images/badges/neu.png
+  position: Game System Designer Intern
+  date: Oct. 2021 - Mar. 2022
+- name: Beijing Karma Game Co., LTD
+#  logo: /assets/images/badges/neu.png
+  position: Game System Designer
+  date: Jul. 2022 - Jun. 2023
 
 #awards:
 #- name: Award Name 2
