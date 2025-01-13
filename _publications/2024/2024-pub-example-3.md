@@ -1,19 +1,22 @@
 ---
-title:          "Convallis a cras semper auctor neque vitae rutrum quisque non tellus orci ac"
+title:          "Hidden Caverns"
 date:           2024-05-12 00:01:00 +0800
 selected:       true
-pub:            "International Conference on Machine Learning (ICML)"
+pub:            "ARPG"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
+# pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       "2024"
 
 abstract: >-
-  Photo by Pineapple Supply Co. on Unsplash. Please put a tldr (too-long-didnt-read, 1~2 sentences) of your publication here. It is not recommended to put the actual abstract here because it is usually too long to fit in. $\LaTeX$ is supported. $a=b+c$.
+  This is a whitebox level design for the early-to-mid game exploration area, serving as a secondary route connecting two major regions. Here's what makes this underground passage special.
+  Design Goals:
+  Provide players with an exploration-rich underground alternative to the main path
+  Create an atmospheric journey through claustrophobic yet intriguing cave spaces
+  Incorporate branching paths and hidden corners to reward curious explorers
 cover:          /assets/images/covers/cover3.jpg
 authors:
-  - Your Name
-  - James Wang
+  - Individual Project
   - Some Other Name
   - John Doe
 links:
