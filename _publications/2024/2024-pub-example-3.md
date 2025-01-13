@@ -9,11 +9,11 @@ pub:            "ARPG"
 # pub_date:       "2024"
 
 abstract: |-
-  This is a blockout level design for the early-to-mid game exploration area, serving as a secondary route connecting two major regions.
+  This is a blockout level design for the early-to-mid game exploration area, serving as a secondary route connecting two major regions.<br>
 
-  Design Goals:
-  Provide players with an exploration-rich underground alternative to the main path.
-  Create an atmospheric journey through claustrophobic yet intriguing cave spaces.
+  Design Goals:<br>
+  Provide players with an exploration-rich underground alternative to the main path.<br>
+  Create an atmospheric journey through claustrophobic yet intriguing cave spaces.<br>
   Incorporate branching paths and hidden corners to reward curious explorers.
 cover:          /assets/images/covers/cover3.jpg
 authors:
