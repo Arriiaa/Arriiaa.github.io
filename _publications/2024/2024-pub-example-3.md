@@ -6,7 +6,7 @@ pub:            "ARPG"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
-pub_date:       "2024"
+# pub_date:       "2024"
 
 abstract: >-
   This is a whitebox level design for the early-to-mid game exploration area, serving as a secondary route connecting two major regions. Here's what makes this underground passage special.
@@ -16,10 +16,9 @@ abstract: >-
   Incorporate branching paths and hidden corners to reward curious explorers
 cover:          /assets/images/covers/cover3.jpg
 authors:
+  - Video Game 
   - Individual Project
-  - Some Other Name
-  - John Doe
 links:
-  Code: https://github.com/luost26/academic-homepage
+  Youtube: https://github.com/luost26/academic-homepage
   Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
 ---
