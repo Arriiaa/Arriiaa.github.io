@@ -21,5 +21,4 @@ authors:
   - Individual Project
 links:
   Youtube: https://github.com/luost26/academic-homepage
-  Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
 ---
