@@ -48,18 +48,20 @@ education:
   date: Sep. 2018 - Jul. 2022
 
 experience:
-- name: Zhuhai Kingsoft Digital Network Technology Co., Ltd
-  logo: /assets/images/badges/kingsoft.png
-  position: Game Designer Intern
-  date: Jun. 2021 - Jul. 2021
-- name: NetEase(Hangzhou) Network Co., LTD
-  logo: /assets/images/badges/netease.jpg
-  position: Game System Designer Intern
-  date: Oct. 2021 - Mar. 2022
 - name: Beijing Karma Game Co., LTD
   logo: /assets/images/badges/karma.png
   position: Game System Designer
   date: Jul. 2022 - Jun. 2023
+- name: NetEase(Hangzhou) Network Co., LTD
+  logo: /assets/images/badges/netease.jpg
+  position: Game System Designer Intern
+  date: Oct. 2021 - Mar. 2022
+- name: Zhuhai Kingsoft Digital Network Technology Co., Ltd
+  logo: /assets/images/badges/kingsoft.png
+  position: Game Designer Intern
+  date: Jun. 2021 - Jul. 2021
+
+
 
 #awards:
 #- name: Award Name 2
