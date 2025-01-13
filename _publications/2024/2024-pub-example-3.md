@@ -8,12 +8,13 @@ pub:            "ARPG"
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 # pub_date:       "2024"
 
-abstract: >-
-  This is a whitebox level design for the early-to-mid game exploration area, serving as a secondary route connecting two major regions. Here's what makes this underground passage special.
+abstract: |-
+  This is a blockout level design for the early-to-mid game exploration area, serving as a secondary route connecting two major regions.
+
   Design Goals:
-  Provide players with an exploration-rich underground alternative to the main path
-  Create an atmospheric journey through claustrophobic yet intriguing cave spaces
-  Incorporate branching paths and hidden corners to reward curious explorers
+  Provide players with an exploration-rich underground alternative to the main path.
+  Create an atmospheric journey through claustrophobic yet intriguing cave spaces.
+  Incorporate branching paths and hidden corners to reward curious explorers.
 cover:          /assets/images/covers/cover3.jpg
 authors:
   - Video Game 
