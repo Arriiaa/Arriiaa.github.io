@@ -9,13 +9,10 @@ pub:            "Puzzle-adventure Game"
 # pub_date:       "2024"
 
 abstract: |-
-  This is a blockout level design for the early-to-mid game exploration area, serving as a secondary route connecting two major regions.<br>
-
-  Design Goals:<br>
-  Provide players with an exploration-rich underground alternative to the main path.<br>
-  Create an atmospheric journey through claustrophobic yet intriguing cave spaces.<br>
-  Incorporate branching paths and hidden corners to reward curious explorers.
-cover:          /assets/images/covers/cover3.jpg
+  Enter "Horizon" - where perception meets puzzle-solving! Guide a geometric hero through a mysterious world where 2D and 3D collide. No jumping here - instead, master the art of shifting perspectives and manipulating light and shadow to forge impossible paths.
+Journey through five unique realms, each hiding its own secrets. That guiding light you're chasing? It might just be the very one you're trying to save! With clever perspective tricks and mind-bending light puzzles, every solution brings a moment of pure delight.
+Transform your world, bend reality, and discover the unexpected in this illuminating adventure!
+cover:          /assets/images/covers/Horizon.png
 authors:
   - Video Game 
   - Individual Project
