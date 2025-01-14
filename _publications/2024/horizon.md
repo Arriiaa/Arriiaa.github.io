@@ -12,6 +12,7 @@ abstract: |-
   Enter "Horizon" - where perception meets puzzle-solving! Guide a geometric hero through a mysterious world where 2D and 3D collide. No jumping here - instead, master the art of shifting perspectives and manipulating light and shadow to forge impossible paths.
 Journey through five unique realms, each hiding its own secrets. That guiding light you're chasing? It might just be the very one you're trying to save! With clever perspective tricks and mind-bending light puzzles, every solution brings a moment of pure delight.
 Transform your world, bend reality, and discover the unexpected in this illuminating adventure!
+
 cover:          /assets/images/covers/Horizon.png
 authors:
   - Video Game 
