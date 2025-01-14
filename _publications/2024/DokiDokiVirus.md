@@ -1,6 +1,6 @@
 ---
 title:          "DokiDokiVirus"
-date:           2024-05-12 00:01:00 +0800
+date:           2024-12-12 00:01:00 +0800
 selected:       false
 pub:            "Shooting Game, Bullet Hell Game"
 # pub_pre:        "Submitted to "
