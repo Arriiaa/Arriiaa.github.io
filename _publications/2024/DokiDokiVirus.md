@@ -16,6 +16,7 @@ authors:
   - Group Project
   - Level Design
 links:
-  Youtube: [https://github.com/luost26/academic-homepage](https://www.youtube.com/watch?v=P39u-5Disn4)
+  Youtube: https://www.youtube.com/watch?v=P39u-5Disn4
   itch: https://mingx1.itch.io/dokidoki-virus
 ---
+
