@@ -14,7 +14,8 @@ abstract: |-
 cover:          /assets/images/covers/Horizon.png
 authors:
   - Video Game 
-  - Individual Project
+  - Group Project
+  - Level Design
 links:
   Youtube: https://www.youtube.com/watch?v=G1Gl2b9VanE
 ---
