@@ -1,8 +1,8 @@
 ---
-title:          "Hidden Caverns"
+title:          "Horizon"
 date:           2024-05-12 00:01:00 +0800
-selected:       true
-pub:            "ARPG"
+selected:       false
+pub:            "Puzzle-adventure Game"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
@@ -20,5 +20,5 @@ authors:
   - Video Game 
   - Individual Project
 links:
-  Youtube: https://github.com/luost26/academic-homepage
+  Youtube: https://www.youtube.com/watch?v=G1Gl2b9VanE
 ---
