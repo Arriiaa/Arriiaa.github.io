@@ -13,7 +13,7 @@ authors:
   - Group Project
   - Gameplay Design
 links:
-  Paper: https://www.biorxiv.org
-  Code: https://github.com
-  Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
+  Youtube: https://youtu.be/TvuJkH06ixA
+  Portfolio: https://drive.google.com/file/d/1UFCX0D9QgZN2jbYGy9ZYcPbXcS6Al_B6/view?usp=sharing
+  itch: 
 ---
