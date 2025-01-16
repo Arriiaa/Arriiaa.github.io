@@ -1,9 +1,9 @@
 ---
 title:          "LAN"
-date:           2023-01-05 00:01:00 +0800
+date:           2021-01-05 00:01:00 +0800
 selected:       true
 pub:            "Platforming Game"
-# pub_date:       "2023"
+# pub_date:       "2021"
 abstract: >-
   In this action-packed platformer, you control a mechanical bionic being in its initial form. As you progress through the challenging levels, you will acquire three unique bullet abilities, each introducing fresh gameplay mechanics.<br>
   With each bullet acquired, your bionic being will evolve: enhanced perception will allow you to discover hidden paths, a loaded thinking module will enable you to solve more complex level puzzles, and an implanted memory chip will reveal deeper secrets about the world.<br>
