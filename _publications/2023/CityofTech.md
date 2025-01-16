@@ -1,6 +1,6 @@
 ---
 title:          "City of Tech"
-date:           2022-01-1 00:01:00 +0800
+date:           2022-01-20 00:01:00 +0800
 selected:       false
 pub:            "Strategy Board Game"
 # pub_pre:        "Submitted to "
