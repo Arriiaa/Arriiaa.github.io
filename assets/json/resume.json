@@ -1,12 +1,12 @@
 {
-  "basics": {
-    "name": "王怡然",
-    "label": "游戏设计师",
+  "基本信息": {
+    "名字": "王怡然",
+    "职业": "游戏设计师",
     "image": "",
-    "email": "wang.yiran7@northeastern.edu",
-    "phone": "(781) 502-1335",
+    "邮箱": "wang.yiran7@northeastern.edu",
+    "电话": "(781) 502-1335",
     "url": "https://arriiaa.github.io/",
-    "summary": "A budding game designer with a lifelong passion for gaming",
+    "简介": "一位对游戏终生充满热情的崭露头角的游戏设计师",
     "location": {
       "address": "150 exchange St",
       "postalCode": "02148",
