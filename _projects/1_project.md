@@ -5,7 +5,7 @@ description: ARPG 项目关卡白盒
 img: assets/img/ARPG_Blockout.jpg
 importance: 1
 category: Individual
-related_publications: true
+related_publications: false
 ---
 
 本关卡的主要玩法是动作冒险，包含基础战斗、跑跳、探索等核心机制。整体游玩时间预计为20-25分钟，涵盖跑图、战斗、探索以及Boss战等环节。
