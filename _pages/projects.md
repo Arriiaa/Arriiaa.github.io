@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 nav: true
 nav_order: 3
-display_categories: [Game]
+display_categories: [Individual,Group]
 horizontal: false
 ---
 
