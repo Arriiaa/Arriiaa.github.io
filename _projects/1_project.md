@@ -14,9 +14,8 @@ related_publications: true
 
 故事设定在中世纪背景下，玩家在前往第二个区域的途中，由于主干道被重兵把守，无法直接通过，只能选择这条较为隐蔽的路线，寻找突破口，最终抵达目标区域。
 
-</div>
 
-关卡全览
+</strong>关卡全览</strong>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -24,7 +23,7 @@ related_publications: true
     </div>
 </div>
 
-区域1
+</strong>区域1</strong>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -32,7 +31,7 @@ related_publications: true
     </div>
 </div>
 
-区域2
+</strong>区域2</strong>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -40,11 +39,51 @@ related_publications: true
     </div>
 </div>
 
-区域3
+</strong>区域3</strong>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Area 3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+</strong>区域4</strong>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Area 4.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+</strong>区域5</strong>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Area 5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+</strong>区域6</strong>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Area 6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+</strong>区域7</strong>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Area 7.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+</strong>区域8</strong>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Area 8.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
