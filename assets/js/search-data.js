@@ -442,7 +442,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
-          description: "with background image",
+          description: "ARPG 项目关卡白盒",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
