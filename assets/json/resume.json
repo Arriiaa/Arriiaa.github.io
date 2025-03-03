@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "王怡然",
+    "label": "游戏设计师",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "wang.yiran7@northeastern.edu",
+    "phone": "(781) 502-1335",
+    "url": "https://arriiaa.github.io/",
+    "summary": "A budding game designer with a lifelong passion for gaming",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "150 exchange St",
+      "postalCode": "02148",
+      "city": "Boston",
       "countryCode": "US",
-      "region": "California"
+      "region": "MA"
     },
     "profiles": [
       {
@@ -24,13 +24,11 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "北京羯磨科技有限公司",
+      "position": "游戏系统策划",
+      "startDate": "2022-07",
+      "endDate": "2023-04",
+      "highlights": ["根据游戏内爬塔系统框架设计具体细节并跟进开发进度。", "根据项目版本和商业化目标设计游戏内容与系统，确保与整体发展方向一致。","开发并实施运营活动，协助跟踪其效果以优化玩家参与度和收入生成。","收集并分析用户反馈，拓展商业机会，协助运营方制定改善用户体验和提升收入表现的策略。"]
     }
   ],
   "volunteer": [
