@@ -1,4 +1,4 @@
-- title: 基础信息
+- title: General Info
   type: map
   contents:
     - name: 名字
@@ -8,7 +8,7 @@
     - name: 语言
       value: Chinese, English
 
-- title: 教育经历
+- title: Education
   type: time_table
   contents:
     - title: 硕士
@@ -22,7 +22,7 @@
       description:
         - 数据结构, 程序设计语言原理, 数据库原理与设计
 
-- title: 工作经历
+- title: Experience
   type: time_table
   contents:
     - title: 游戏系统策划
@@ -54,7 +54,7 @@
         - 撰写了 2D 平台动作射击游戏《LAN》的创意文档，该项目从 40 多个参赛作品中入围前 12 名，并参与创意路演展示。
         - 参与《LAN》（小组项目）的开发，专注于玩法机制、关卡设计和 BOSS AI 设计。
 
-- title: 项目经历
+- title: Projects
   type: time_table
   contents:
     - title: <a href="https://arriiaa.github.io/projects/1_project/">隐秘矿洞</a>
@@ -81,18 +81,7 @@
       year: 个人
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: 相关技能
+- title: Relative Skills
   type: nested_list
   contents:
     - title: 相关软件
@@ -102,7 +91,7 @@
       items:
         - 蓝图, C#, Java
 
-- title: 游戏经历
+- title: Game Experience
   type: nested_list
   contents:
     - title: ARPG
@@ -128,7 +117,7 @@
         - 星露谷物语（100+）,缺氧（40+）， 双点医院（50+）等
 
         
-- title: 个人总结
+- title: Personal summary
   type: list
   contents:
     - 具备扎实的编程基础和跨学科知识，熟练使用Unity和Unreal Engine，具备独立制作Demo的能力。拥有丰富的团队合作经验，能够在多方协作中推动项目顺利完成。热衷于设计具有深度和挑战性的游戏，追求创新和玩家体验的提升。
