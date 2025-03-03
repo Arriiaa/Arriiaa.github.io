@@ -1,37 +1,54 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: LAN
+description: 横板动作射击游戏
 img: assets/img/3.jpg
 importance: 2
 category: Group
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+主要负责玩法设计、前两关关卡设计以及怪物AI射击。
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+玩家将控制一个机械生物，从初始形态开始，逐步通过挑战性的关卡。在游戏过程中，你将获得三种独特的子弹能力，每种能力都带来新的游戏机制。
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+游戏融合了经典平台跳跃元素与创新的射击玩法，玩家需要策略性地利用四种子弹的独特属性，克服每个关卡的挑战。
+
+<!-- 添加视频链接 -->
+<strong style="font-size: 24px;">视频演示</strong>
+<p>点击下面的链接查看视频演示：</p>
+<a href="https://www.bilibili.com/video/BV1tw9iYdEor/" target="_blank" class="btn btn-primary">点击观看视频</a>
+
+<strong style="font-size: 24px;">游戏玩法</strong>
+
+<strong style="font-size: 20px;">1. 玩家行为</strong>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/玩家行为.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+1. 分为基本行为和射击行为
+
+2. 基本行为包括基本移动、跳跃、攀墙跳以及墙壁抓取
+
+3. 射击行为随着关卡进程会逐步获取，包括攻击子弹、重力子弹、反弹子弹、磁力子弹
+
+<strong style="font-size: 20px;">2. 核心玩法循环</strong>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/核心玩法循环.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+1. 分为基本行为和射击行为
+
+2. 基本行为包括基本移动、跳跃、攀墙跳以及墙壁抓取
+
+3. 射击行为随着关卡进程会逐步获取，包括攻击子弹、重力子弹、反弹子弹、磁力子弹
+
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
