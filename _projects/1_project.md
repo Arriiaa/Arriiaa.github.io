@@ -2,7 +2,7 @@
 layout: page
 title: 隐秘矿洞
 description: ARPG 项目关卡白盒
-img: assets/img/ARPG_Blockout.jpg
+img: assets/img/CaveBlockout/ARPG_Blockout.jpg
 importance: 1
 category: Individual
 related_publications: false
@@ -19,12 +19,50 @@ related_publications: false
 <p>点击下面的链接查看视频演示：</p>
 <a href="https://www.bilibili.com/video/BV1tw9iYdEor/" target="_blank" class="btn btn-primary">点击观看视频</a>
 
+<strong style="font-size: 24px;">周期小计</strong>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/周期小计.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<strong style="font-size: 24px;">项目文件夹备忘 </strong>
+
+<strong>工程文件 </strong>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/工程文件.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/Assets文件.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Assets 角色相关内容（包括玩家角色、npc和敌方的蓝图、static mesh、动画等）
+
+BlockoutSource 关卡内其他无交互功能物体
+
+Bluprints 关卡内所有交互物体
+
+Characters 作为角色相关内容的后备资源（未用到的动画）
+
+Level 关卡内资源的Material、Texture以及自制关卡物体
+
+<strong style="font-size: 24px;">白盒制作流程记录</strong>
+
+<strong style="background-color: yellow;">由于我之前没有做过这类偏大体量的关卡白盒，因此这次是第一次按照工业流程来制作。主要是以练习为主，所以可能会存在很多不足之处和设计上的问题。在制作过程中，我并没有非常严格地从头到尾按步骤进行，而是处于一个串联和输出的阶段，反复进行调整和修改。</strong>
+
+
+
+
 
 <strong>关卡全览</strong>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/All.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/All.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -32,7 +70,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Area 1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/Area 1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -40,7 +78,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Area 2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/Area 2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -48,7 +86,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Area 3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/Area 3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -56,7 +94,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Area 4.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/Area 4.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -64,7 +102,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Area 5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/Area 5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -72,7 +110,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Area 6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/Area 6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -80,7 +118,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Area 7.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/Area 7.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -88,6 +126,6 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Area 8.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/Area 8.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
