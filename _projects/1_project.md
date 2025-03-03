@@ -1,25 +1,19 @@
 ---
 layout: page
 title: project 1
-description: with background image
-img: assets/img/12.jpg
+description: ARPG 项目关卡白盒
+img: assets/img/ARPG_Blockout.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+本关卡的主要玩法是动作冒险，包含基础战斗、跑跳、探索等核心机制。整体游玩时间预计为20-25分钟，涵盖跑图、战斗、探索以及Boss战等环节。
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+该关卡的定位是前期连接前两个区域的辅助路线，类似于《艾尔登法环》中史东薇尔城的主干道和断崖路线的关系，提供一条与主线并行的探索路径。
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+故事设定在中世纪背景下，玩家在前往第二个区域的途中，由于主干道被重兵把守，无法直接通过，只能选择这条较为隐蔽的路线，寻找突破口，最终抵达目标区域。
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
