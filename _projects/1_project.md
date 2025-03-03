@@ -159,17 +159,41 @@ Level 关卡内资源的Material、Texture以及自制关卡物体
 
 <strong style="font-size: 18px;">②关卡白盒</strong>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/玩家交互.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/玩家爬梯.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    角色蓝图示例：基本交互以及爬梯系统
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/关卡示例1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/关卡示例2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    关卡区域示例：在关卡搭建中我通常会开启lit模式，消除其他元素的影响，在最后调试时，会调回ulit模式
+</div>
+
 1. 完成角色基础运动设置，直接使用ue自带的动作，包括跑跳；再通过蓝图增加蹲下前进等其他运动
 
 2. 完成标准件设计，包括门、升降梯等等
 
 3. 根据平面图将整体搭建一下，先搭建地基，基本完成后，完成墙壁等搭建
 
-4. 各个区域进行细化，在细化过程中修改部分先前的设计
+4. 各个区域进行细化，在细化过程中修改了部分先前的设计
 
 5. 完成交互物体和敌人物体的功能蓝图，并进行调试
 
-6.  将敌人和可拾取道具进行布置
+6. 将灯光、敌人和可拾取道具进行布置
 
 7. 从头到尾串联下，全部跑通，记录问题并进行修改 
 
