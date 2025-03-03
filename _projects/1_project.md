@@ -14,7 +14,6 @@ related_publications: true
 
 故事设定在中世纪背景下，玩家在前往第二个区域的途中，由于主干道被重兵把守，无法直接通过，只能选择这条较为隐蔽的路线，寻找突破口，最终抵达目标区域。
 
-
 </strong>关卡全览</strong>
 
 <div class="row">

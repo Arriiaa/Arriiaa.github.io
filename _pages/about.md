@@ -33,4 +33,4 @@ Growing up with video games naturally led me to pursue game design at Northeaste
 
 I also have a soft spot for indie games like Animal Well, which never cease to amaze me with their creativity. As an aspiring game designer, I'm excited to combine my gaming experience with fresh ideas to create experiences that can touch players' hearts.
 
-If you're passionate about games too, I'd love to hear about your gaming experiences! Let's explore the endless possibilities of game design together 
+If you're passionate about games too, I'd love to hear about your gaming experiences! Let's explore the endless possibilities of game design together
