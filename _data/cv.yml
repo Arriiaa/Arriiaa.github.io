@@ -55,27 +55,59 @@
   contents:
     - title: <a href="https://arriiaa.github.io/projects/1_project/">隐秘矿洞</a>
       year: 个人
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+      description:
+        - ARPG白盒关卡
+        - 根据项目版本和商业化目标设计游戏内容与系统，确保与整体发展方向一致。
+        - 开发并实施运营活动，协助跟踪其效果以优化玩家参与度和收入生成。
+        - 收集并分析用户反馈，拓展商业机会，协助运营方制定改善用户体验和提升收入表现的策略。
 
     - title: <a href="https://arriiaa.github.io/projects/1_project/">LAN</a>
       year: 小组
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+      description:
+        - 2D横板动作冒险
+        - 主要负责玩法设计和前两关关卡设计。
+        - 玩家将控制一个机械生物，从初始形态开始，逐步通过挑战性的关卡。在游戏过程中，你将获得三种独特的子弹能力（重力子弹、），每种能力都带来新的游戏机制。
+        - 游戏融合了经典平台跳跃元素与创新的射击玩法，玩家需要策略性地利用三种子弹的独特属性，克服每个关卡的挑战。
 
     - title: <a href="https://arriiaa.github.io/projects/1_project/">DokiDokiVirus</a>
       year: 小组
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+      description:
+        - 根据游戏内爬塔系统框架设计具体细节并跟进开发进度。
+        - 根据项目版本和商业化目标设计游戏内容与系统，确保与整体发展方向一致。
+        - 玩家将操控一个可以吞噬敌人的机械生物，在战斗中自由切换吞噬与射击形态，通过不断进化适应挑战性的关卡。
+        - 融合了 Roguelike 机制与成长式卡牌升级系统，玩家可选择不同能力强化自身，并利用分裂细胞机制策略性地战斗。
 
     - title: <a href="https://arriiaa.github.io/projects/1_project/">是，否</a>
       year: 小组
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+      description:
+        - 根据游戏内爬塔系统框架设计具体细节并跟进开发进度。
+        - 根据项目版本和商业化目标设计游戏内容与系统，确保与整体发展方向一致。
+        - 开发并实施运营活动，协助跟踪其效果以优化玩家参与度和收入生成。
+        - 收集并分析用户反馈，拓展商业机会，协助运营方制定改善用户体验和提升收入表现的策略。
 
     - title: <a href="https://arriiaa.github.io/projects/1_project/">Horizon</a>
       year: 小组
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+      description:
+        - 根据游戏内爬塔系统框架设计具体细节并跟进开发进度。
+        - 根据项目版本和商业化目标设计游戏内容与系统，确保与整体发展方向一致。
+        - 开发并实施运营活动，协助跟踪其效果以优化玩家参与度和收入生成。
+        - 收集并分析用户反馈，拓展商业机会，协助运营方制定改善用户体验和提升收入表现的策略。
 
     - title: <a href="https://arriiaa.github.io/projects/1_project/">科技之城</a>
       year: 个人
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+      description:
+        - 根据游戏内爬塔系统框架设计具体细节并跟进开发进度。
+        - 根据项目版本和商业化目标设计游戏内容与系统，确保与整体发展方向一致。
+        - 开发并实施运营活动，协助跟踪其效果以优化玩家参与度和收入生成。
+        - 收集并分析用户反馈，拓展商业机会，协助运营方制定改善用户体验和提升收入表现的策略。
+
+    - title: <a href="https://arriiaa.github.io/projects/1_project/">死亡卡牌</a>
+      year: 个人
+      description:
+        - 根据游戏内爬塔系统框架设计具体细节并跟进开发进度。
+        - 根据项目版本和商业化目标设计游戏内容与系统，确保与整体发展方向一致。
+        - 开发并实施运营活动，协助跟踪其效果以优化玩家参与度和收入生成。
+        - 收集并分析用户反馈，拓展商业机会，协助运营方制定改善用户体验和提升收入表现的策略。
 
 - title: Relative Skills
   type: nested_list
