@@ -11,22 +11,16 @@
 - title: Education
   type: time_table
   contents:
-    - title: Master
-      institution: Northeastern University
-      year: 2026
+    - title: 硕士
+      institution: Northeastern University（东北大学）
+      year: 2024-现在
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - 数据结构, 程序设计语言原理, 数据库原理与设计
+    - title: 本科
+      institution: 重庆邮电大学
+      year: 2018-2022
       description:
-        - Description 1.
-        - Description 2.
+        - 数据结构, 程序设计语言原理, 数据库原理与设计
 
 - title: Experience
   type: time_table
