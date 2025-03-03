@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: 隐秘矿洞
 description: ARPG 项目关卡白盒
 img: assets/img/ARPG_Blockout.jpg
 importance: 1
