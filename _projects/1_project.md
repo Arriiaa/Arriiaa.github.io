@@ -4,7 +4,7 @@ title: 隐秘矿洞
 description: ARPG 项目关卡白盒
 img: assets/img/ARPG_Blockout.jpg
 importance: 1
-category: Game
+category: Individual
 related_publications: true
 ---
 
