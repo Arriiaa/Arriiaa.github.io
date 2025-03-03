@@ -2,7 +2,7 @@
 layout: page
 title: 隐秘矿洞
 description: ARPG 项目关卡白盒
-img: assets/img/CaveBlockout/ARPG_Blockout.jpg
+img: assets/img/ARPG_Blockout.jpg
 importance: 1
 category: Individual
 related_publications: false
@@ -15,7 +15,7 @@ related_publications: false
 故事设定在中世纪背景下，玩家在前往第二个区域的途中，由于主干道被重兵把守，无法直接通过，只能选择这条较为隐蔽的路线，寻找突破口，最终抵达目标区域。
 
 <!-- 添加视频链接 -->
-<strong>视频演示</strong>
+<strong style="font-size: 24px;">视频演示</strong>
 <p>点击下面的链接查看视频演示：</p>
 <a href="https://www.bilibili.com/video/BV1tw9iYdEor/" target="_blank" class="btn btn-primary">点击观看视频</a>
 
@@ -23,7 +23,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/周期小计.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/周期小计.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -33,10 +33,10 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/工程文件.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/工程文件.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/Assets文件.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Assets文件.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -54,15 +54,41 @@ Level 关卡内资源的Material、Texture以及自制关卡物体
 
 <strong style="background-color: yellow;">由于我之前没有做过这类偏大体量的关卡白盒，因此这次是第一次按照工业流程来制作。主要是以练习为主，所以可能会存在很多不足之处和设计上的问题。在制作过程中，我并没有非常严格地从头到尾按步骤进行，而是处于一个串联和输出的阶段，反复进行调整和修改。</strong>
 
+<strong style="font-size: 20px;">1. 构思阶段</strong>
 
+<strong style="font-size: 18px;">①确定关卡目标和关卡定位</strong>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/构思阶段.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
+1. 所有的关卡都是玩家和设计师交流的媒介，那么必不可少的就是设计师希望玩家通过这个关卡get到什么？
+
+2. 需要通过这个关卡了解到什么信息？通关后玩家又会去往哪里？是否在关卡内学习到新的技能？
+
+3. 在我的关卡中我首先确认了这个关卡的定位，是在整体游戏主线中的哪个时期，前中后？如果实在游戏前期，那么作为游戏的目标是？作为练习作品的目标是？
+
+<strong style="font-size: 18px;">②关卡元素整理</strong>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/构思阶段.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+1. 所有的关卡都是玩家和设计师交流的媒介，那么必不可少的就是设计师希望玩家通过这个关卡get到什么？
+
+2. 需要通过这个关卡了解到什么信息？通关后玩家又会去往哪里？是否在关卡内学习到新的技能？
+
+3. 在我的关卡中我首先确认了这个关卡的定位，是在整体游戏主线中的哪个时期，前中后？如果实在游戏前期，那么作为游戏的目标是？作为练习作品的目标是？
 
 <strong>关卡全览</strong>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/All.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/All.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -70,7 +96,7 @@ Level 关卡内资源的Material、Texture以及自制关卡物体
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/Area 1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Area 1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -78,7 +104,7 @@ Level 关卡内资源的Material、Texture以及自制关卡物体
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/Area 2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Area 2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -86,7 +112,7 @@ Level 关卡内资源的Material、Texture以及自制关卡物体
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/Area 3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Area 3.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -94,7 +120,7 @@ Level 关卡内资源的Material、Texture以及自制关卡物体
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/Area 4.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Area 4.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -102,7 +128,7 @@ Level 关卡内资源的Material、Texture以及自制关卡物体
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/Area 5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Area 5.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -110,7 +136,7 @@ Level 关卡内资源的Material、Texture以及自制关卡物体
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/Area 6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Area 6.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -118,7 +144,7 @@ Level 关卡内资源的Material、Texture以及自制关卡物体
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/Area 7.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Area 7.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -126,6 +152,6 @@ Level 关卡内资源的Material、Texture以及自制关卡物体
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/CaveBlockout/Area 8.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Area 8.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
