@@ -70,7 +70,11 @@
       "studyType": "硕士",
       "startDate": "2024-09",
       "endDate": "-现在",
-      "courses": ["游戏设计与分析，数据驱动的玩家模型，3D 建模"],
+      "courses": ["游戏设计与分析，数据驱动的玩家模型，3D 建模"]
+    }
+  ],
+   "education": [
+    {
       "institution": "重庆邮电大学",
       "location": "重庆",
       "area": "软件工程",
