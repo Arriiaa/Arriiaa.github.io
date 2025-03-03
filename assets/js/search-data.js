@@ -395,11 +395,6 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_3/";
-            },},{id: "projects-隐秘矿洞",
-          title: '隐秘矿洞',
-          description: "ARPG 项目关卡白盒",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
             },},{id: "projects-lan",
           title: 'LAN',
           description: "横板动作射击游戏",
@@ -425,6 +420,11 @@ ninja.data = [{
           description: "a project with no image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
+            },},{id: "projects-隐秘矿洞",
+          title: '隐秘矿洞',
+          description: "ARPG 项目关卡白盒",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/CaveBlockout/";
             },},{
         id: 'social-email',
         title: 'email',
