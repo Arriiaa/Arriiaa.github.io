@@ -22,7 +22,7 @@
       }
     ]
   },
-  "Work": [
+  "work": [
     {
       "name": "北京羯磨科技有限公司",
       "location": "北京",
@@ -37,7 +37,7 @@
       ]
     }
   ],
-  "Intern": [
+  "intern": [
     {
       "organization": "网易（杭州）网络有限公司",
       "location": "杭州",
