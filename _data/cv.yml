@@ -1,14 +1,14 @@
-- title: General Information
+- title: 基础信息
   type: map
   contents:
-    - name: Full Name
+    - name: 名字
       value: 王怡然
-    - name: Date of Birth
+    - name: 生日
       value: 2001-01-13
-    - name: Languages
+    - name: 语言
       value: Chinese, English
 
-- title: Education
+- title: 教育经历
   type: time_table
   contents:
     - title: 硕士
@@ -22,44 +22,63 @@
       description:
         - 数据结构, 程序设计语言原理, 数据库原理与设计
 
-- title: Experience
+- title: 工作经历
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: 游戏系统策划
+      institution: 北京羯磨科技有限公司
+      year: 2022.7-2023.4
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - 根据游戏内爬塔系统框架设计具体细节并跟进开发进度。
+        - 根据项目版本和商业化目标设计游戏内容与系统，确保与整体发展方向一致。
+        - 开发并实施运营活动，协助跟踪其效果以优化玩家参与度和收入生成。
+        - 收集并分析用户反馈，拓展商业机会，协助运营方制定改善用户体验和提升收入表现的策略。
+        
+    - title: 游戏系统策划实习生
+      institution: 网易（杭州）网络有限公司应龙工作室
+      year: 2021.10-2022.2
       description:
-        - Description 1.
-        - Description 2.
+        - 协助配置怪物和副本 AI，并根据玩家反馈进行调整。
+        - 根据项目内容为双旦和新年等重要节日设计游戏内活动及进行相关配置。
+        - 支持游戏玩法功能的开发和配置，与团队成员合作确保顺利执行。
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: 游戏策划实习生
+      institution: 珠海金山数字网络科技有限公司西山居工作室
+      year: 2021.7-2021.8
 
     - title: Professor of Theoretical Physics
       institution: Karl-Ferdinand University, Prague, Czechoslovakia
       year: 1911 - 1917
-      description:
+       description:
+        - 学习并掌握游戏设计及创意的理论与实践知识。
+        - 撰写了 2D 平台动作射击游戏《LAN》的创意文档，该项目从 40 多个参赛作品中入围前 12 名，并参与创意路演展示。
+        - 参与《LAN》（小组项目）的开发，专注于玩法机制、关卡设计和 BOSS AI 设计。
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: 项目经历
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
+    - title: <a href="https://arriiaa.github.io/projects/1_project/">隐秘矿洞</a>
+      year: 个人
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+      - title: <a href="https://arriiaa.github.io/projects/1_project/">LAN</a>
+      year: 小组
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+      - title: <a href="https://arriiaa.github.io/projects/1_project/">DokiDokiVirus</a>
+      year: 小组
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+      - title: <a href="https://arriiaa.github.io/projects/1_project/">是，否</a>
+      year: 小组
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+      - title: <a href="https://arriiaa.github.io/projects/1_project/">Horizon</a>
+      year: 小组
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+      - title: <a href="https://arriiaa.github.io/projects/1_project/">科技之城</a>
+      year: 个人
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
@@ -73,19 +92,43 @@
       items:
         - Max Planck Medal
 
-- title: Academic Interests
+- title: 相关技能
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: 相关软件
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Unreal（熟练），Unity（熟练），Maya（熟练）, WPS（Excel 等），PS，ID
+    - title: 计算机语言
       items:
-        - Description 1.
-        - Description 2.
+        - 蓝图, C#, Java
 
-- title: Other Interests
+- title: 游戏经历
+  type: nested_list
+  contents:
+    - title: ARPG
+      items:
+        - 只狼（白金），黑神话：悟空（白金），塞尔达系列（400+），艾尔登法环，魂 3 等
+    - title: JRPG
+      items:
+        - 暗喻幻想（70+h），P5R（白金），P3R（白金），真女神转生 5（60+h）等
+    - title: 类银河恶魔城
+      items:
+        - 奥日系列（白金），空洞骑士（60+h）等
+    - title: Roguelike
+      items:
+        - 死亡细胞（30+），哈迪斯1、2（90+）,杀戮尖塔（40+）等
+    - title: MMORPG
+      items:
+        - 剑灵（2000+h），剑三（500+h），天涯明月刀（500+h）等
+    - title: MOBA
+      items:
+        - 英雄联盟（4000+h）
+    - title: 模拟经营
+      items:
+        - 星露谷物语（100+）,缺氧（40+）， 双点医院（50+）等
+
+        
+- title: 个人总结
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - 具备扎实的编程基础和跨学科知识，熟练使用Unity和Unreal Engine，具备独立制作Demo的能力。拥有丰富的团队合作经验，能够在多方协作中推动项目顺利完成。热衷于设计具有深度和挑战性的游戏，追求创新和玩家体验的提升。
