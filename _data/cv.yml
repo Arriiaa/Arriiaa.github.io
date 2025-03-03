@@ -2,9 +2,9 @@
   type: map
   contents:
     - name: Full Name
-      value: Yiran Wang
+      value: 王怡然
     - name: Date of Birth
-      value: 13th Jan 2001
+      value: 2001-01-13
     - name: Languages
       value: Chinese, English
 
