@@ -114,7 +114,7 @@ giscus_comments: true
     </div>
 </div>
 
-1. 在设计初期，我们选择了玩家持枪攻击的方式。然而，在进行整合时，由于枪支需要跟随鼠标，当玩家持枪时会出现许多问题，例如：
+在设计初期，我们选择了玩家持枪攻击的方式。然而，在进行整合时，由于枪支需要跟随鼠标，当玩家持枪时会出现许多问题，例如：
    
    ① 玩家需要360°射击，如果玩家持枪，角色会不停旋转，导致移动不流畅；
    
@@ -122,7 +122,7 @@ giscus_comments: true
 
 因此，我们采用了人枪分离设计，将枪支完全与角色分开。
 
-3. 另外，我们发现，由于枪支跟随玩家，二者之间会存在相对距离，这会导致子弹的射击位置和反馈功能与玩家之间存在一定的差异，要求玩家自行判断。这种设计方式将增加游戏的策略性和可玩性。
+另外，我们发现，由于枪支跟随玩家，二者之间会存在相对距离，这会导致子弹的射击位置和反馈功能与玩家之间存在一定的差异，要求玩家自行判断。这种设计方式将增加游戏的策略性和可玩性。
 
 <strong style="font-size: 20px;">3. 核心玩法循环</strong>
 
@@ -305,10 +305,10 @@ giscus_comments: true
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/book_covers/BOSS-3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/BOSS-4.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/book_covers/BOSS-4.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/BOSS-5.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
