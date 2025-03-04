@@ -425,9 +425,9 @@ ninja.data = [{
           description: "2D平台射击游戏",
           section: "Projects",handler: () => {
               window.location.href = "/projects/LAN/";
-            },},{id: "projects-lan",
-          title: 'LAN',
-          description: "2D平台射击游戏",
+            },},{id: "projects-死亡卡牌",
+          title: '死亡卡牌',
+          description: "卡牌Roguelike",
           section: "Projects",handler: () => {
               window.location.href = "/projects/%E6%AD%BB%E4%BA%A1%E5%8D%A1%E7%89%8C/";
             },},{
