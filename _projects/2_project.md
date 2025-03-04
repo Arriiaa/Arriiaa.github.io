@@ -106,8 +106,8 @@ giscus_comments: false
 
 3. 射击行为随着关卡进程会逐步获取，包括攻击子弹、重力子弹、反弹子弹、磁力子弹
 
-<strong style="font-size: 20px;">2. 特殊设计：人抢分离</strong>
-
+<strong style="font-size: 20px;">2. 特殊设计</strong>
+<strong style="font-size: 18px;">①特殊设计：人抢分离</strong>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/book_covers/人枪分离.png" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -123,6 +123,21 @@ giscus_comments: false
 因此，我们采用了人枪分离设计，将枪支完全与角色分开。
 
 另外，我们发现，由于枪支跟随玩家，二者之间会存在相对距离，这会导致子弹的射击位置和反馈功能与玩家之间存在一定的差异，要求玩家自行判断。这种设计方式将增加游戏的策略性和可玩性。
+
+<strong style="font-size: 18px;">②特殊设计：摄像头跟随</strong>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/camera1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/camera2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+由于加入了重力子弹，当玩家进入重力场，会向上附着，这时，由于摄像机视角的原因，玩家会被附近的物体遮挡。
+
+因此我们加入了摄像机跟随，无论玩家在哪一个角度，都会和摄像机成一定的度数，提高玩家的游戏体验。
 
 <strong style="font-size: 20px;">3. 核心玩法循环</strong>
 
