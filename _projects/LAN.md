@@ -3,7 +3,7 @@ layout: page
 title: LAN
 description: 2D平台射击游戏
 img: assets/img/book_covers/JM黑破碎.png
-importance: 2
+importance: 1
 category: Group
 giscus_comments: false
 ---

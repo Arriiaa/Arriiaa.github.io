@@ -25,6 +25,6 @@ giscus_comments: false
 <a href="https://docs.google.com/document/d/1d1qS7FObiesjMkHP4CwzUQmkBtA0QuniCpLt_OdkiEU/edit?tab=t.0" target="_blank" class="btn btn-primary">点击查看文档</a>
 
 <!-- 添加文档链接 -->
-<strong style="font-size: 24px;">文档展示</strong>
+<strong style="font-size: 24px;">游玩</strong>
 <p>点击进行游玩：</p>
 <a href="https://mingx1.itch.io/dokidoki-virus" target="_blank" class="btn btn-primary">点击游玩</a>

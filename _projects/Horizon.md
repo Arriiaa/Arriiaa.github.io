@@ -2,7 +2,7 @@
 layout: page
 title: Horizon
 description: 解谜冒险
-img: assets/img/是否.png
+img: assets/img/Horizon.png
 importance: 4
 category: Group
 giscus_comments: false
