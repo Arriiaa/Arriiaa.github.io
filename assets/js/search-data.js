@@ -449,7 +449,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/404199334", "_blank");
+          window.open("https://www.linkedin.com/in/yiran-wang-404199334", "_blank");
         },
       },{
         id: 'social-wechat_qr',
