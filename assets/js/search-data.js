@@ -30,15 +30,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-game-impression",
+        },{id: "post-",
       
-        title: "Game Impression",
+        title: "",
       
-      description: "A Game Analysis of the Combat System in Assassin&#39;s Creed",
+      description: "",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2024/photo-gallery/";
+          window.location.href = "/blog/2025/2024-12-04-photo-gallery/";
         
       },
     },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
