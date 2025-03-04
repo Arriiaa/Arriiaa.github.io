@@ -30,15 +30,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-",
+        },{id: "post-game-impression-3-assassin-39-s-creed-series",
       
-        title: "",
+        title: "Game Impression #3: Assassin&#39;s Creed series",
       
-      description: "",
+      description: "A Game Analysis of the Combat System in Assassin&#39;s Creed",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/2024-12-04-photo-gallery/";
+          window.location.href = "/blog/2024/photo-gallery/";
         
       },
     },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
