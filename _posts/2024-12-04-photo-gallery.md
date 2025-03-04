@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Game Impression \#3: Assassin's Creed series
-date: 2024-10-02 14:24:00
+title: "Game Impression #3: Assassin's Creed series"
+date: 2024-10-02 14:24:02
 description: A Game Analysis of the Combat System in Assassin's Creed
 tags: combat analysis
 categories: analysis
