@@ -5,12 +5,6 @@ date: 2024-10-02 14:24:00
 description: A Game Analysis of the Combat System in Assassin's Creed
 tags: formatting images
 categories: sample-posts
-thumbnail: assets/img/9.jpg
-images:
-  lightbox2: true
-  photoswipe: true
-  spotlight: true
-  venobox: true
 ---
 
 This blog is written for the assignment of the GSND 5111 course. We are required to play a RPG game and write thoughts about it.
