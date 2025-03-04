@@ -1,14 +1,14 @@
 ---
 layout: page
 title: LAN
-description: 横板动作射击游戏
+description: 2D平台射击游戏
 img: assets/img/3.jpg
 importance: 2
 category: Group
 giscus_comments: true
 ---
 
-主要负责玩法设计、前两关关卡设计以及怪物AI射击。
+主要负责玩法设计、前两关关卡设计以及怪物AI设计。
 
 玩家将控制一个机械生物，从初始形态开始，逐步通过挑战性的关卡。在游戏过程中，你将获得三种独特的子弹能力，每种能力都带来新的游戏机制。
 
@@ -17,7 +17,7 @@ giscus_comments: true
 <!-- 添加视频链接 -->
 <strong style="font-size: 24px;">视频演示</strong>
 <p>点击下面的链接查看视频演示：</p>
-<a href="https://www.bilibili.com/video/BV1tw9iYdEor/" target="_blank" class="btn btn-primary">点击观看视频</a>
+<a href="https://www.bilibili.com/video/BV1444y1k7Ci/" target="_blank" class="btn btn-primary">点击观看视频</a>
 
 <strong style="font-size: 24px;">游戏玩法</strong>
 
@@ -43,15 +43,85 @@ giscus_comments: true
     </div>
 </div>
 
-1. 分为基本行为和射击行为
+1. 共有两个循环，外层循环和内层循环
 
-2. 基本行为包括基本移动、跳跃、攀墙跳以及墙壁抓取
+2. 外层循环为整个游戏的循环系统，内层循环为一个关卡内部的循环系统
 
-3. 射击行为随着关卡进程会逐步获取，包括攻击子弹、重力子弹、反弹子弹、磁力子弹
+<strong style="font-size: 24px;">游戏叙事</strong>
 
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+<strong style="font-size: 20px;">1. 世界观</strong>
+
+科技已经远比当今发达，人们可以用意识接入网络，又或者通过放生科技制造替代身体部位 义肢甚至活生生的人;国家接近形同虚设，大型企业的触角则遍布社会各个角落，社会贫富 也因此更加差距悬殊;底层群体彻底成为边缘人群，生活看不到未来和希望，即便有反抗也 会被消解。
+
+<strong style="font-size: 20px;">2. 主线流程</strong>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/主线流程.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
+
+<strong style="font-size: 20px;">3. 核心体验</strong>
+
+动作带来的成就感和爽快感: 玩家在游戏过程中会感受到使用各种子弹翻越障碍物，击败敌人，闯过一个个小关卡的成就感和流畅的游戏操作、较低的死亡惩罚给玩家带来的爽快感。
+
+<strong style="font-size: 24px;">怪物设计</strong>
+
+<strong style="font-size: 20px;">1. 小怪AI设计</strong>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/小怪类型.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/怪物AI.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+1. 共有三种小怪，近战、远程以及移动病毒，前两者基本逻辑相似，仅为攻击范围以及攻击角度不同。
+
+2. 由于项目比起动作游戏来说更偏向于平台游戏，因此小怪在该项目中的重要性低于相关障碍物。甚至移动病毒更偏向于障碍物而非小怪。
+
+<strong style="font-size: 20px;">2. BOSS AI设计</strong>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/BOSS AI.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+1. 想尽量将BOSS的AI做的复杂一些，让玩家在最后的时候将情绪递到最高
+
+2. 在设计过程中还是吃了没有经验的亏，设计出来后，试玩体验较差，但由于项目时间问题，只能做出些微的修改。希望下次在做设计的时候能够多迭代几次。
+
+<strong style="font-size: 24px;">关卡设计</strong>
+
+<strong style="font-size: 20px;">1. 关卡元素</strong>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/关卡元素.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+最初由于缺乏经验，我们这样设计关卡：脑暴机关，根据大概难度感知组合机关。
+
+几乎必然的结果就是，关卡难度梯度模糊，且新内容缺乏逐步地引导。因此重构时，我们将所有的机关、需要玩家习得的技能，分成平台类、机关障碍类、移动类三个维度，根据学习的子弹作用分析当前关卡所偏重的模块、引入的新机制，并根据小怪的数量来调节难度，从而一定程度做到对难度梯度和节奏游戏节奏的控制。
+
+<strong style="font-size: 20px;">2. BOSS AI设计</strong>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/BOSS AI.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+1. 想尽量将BOSS的AI做的复杂一些，让玩家在最后的时候将情绪递到最高
+
+2. 在设计过程中还是吃了没有经验的亏，设计出来后，试玩体验较差，但由于项目时间问题，只能做出些微的修改。希望下次在做设计的时候能够多迭代几次。
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
