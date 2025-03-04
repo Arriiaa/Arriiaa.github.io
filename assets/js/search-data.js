@@ -30,11 +30,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-post-with-image-galleries",
+        },{id: "post-game-impression",
       
-        title: "a post with image galleries",
+        title: "Game Impression",
       
-      description: "this is what included image galleries could look like",
+      description: "A Game Analysis of the Combat System in Assassin&#39;s Creed",
       section: "Posts",
       handler: () => {
         
