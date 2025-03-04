@@ -395,11 +395,6 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_3/";
-            },},{id: "projects-lan",
-          title: 'LAN',
-          description: "2D平台射击游戏",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
@@ -425,6 +420,16 @@ ninja.data = [{
           description: "ARPG 项目关卡白盒",
           section: "Projects",handler: () => {
               window.location.href = "/projects/CaveBlockout/";
+            },},{id: "projects-lan",
+          title: 'LAN',
+          description: "2D平台射击游戏",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/LAN/";
+            },},{id: "projects-lan",
+          title: 'LAN',
+          description: "2D平台射击游戏",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/%E6%AD%BB%E4%BA%A1%E5%8D%A1%E7%89%8C/";
             },},{
         id: 'social-email',
         title: 'email',
