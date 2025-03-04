@@ -420,6 +420,11 @@ ninja.data = [{
           description: "ARPG 项目关卡白盒",
           section: "Projects",handler: () => {
               window.location.href = "/projects/CaveBlockout/";
+            },},{id: "projects-科技之城",
+          title: '科技之城',
+          description: "德式桌游",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/City%20of%20Tech/";
             },},{id: "projects-lan",
           title: 'LAN',
           description: "2D平台射击游戏",
