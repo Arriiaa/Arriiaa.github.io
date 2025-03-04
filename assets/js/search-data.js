@@ -397,7 +397,7 @@ ninja.data = [{
               window.location.href = "/news/announcement_3/";
             },},{id: "projects-lan",
           title: 'LAN',
-          description: "横板动作射击游戏",
+          description: "2D平台射击游戏",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
