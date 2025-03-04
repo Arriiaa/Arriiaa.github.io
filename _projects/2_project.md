@@ -5,7 +5,7 @@ description: 2D平台射击游戏
 img: assets/img/3.jpg
 importance: 2
 category: Group
-giscus_comments: true
+giscus_comments: false
 ---
 
 主要负责玩法设计、前两关关卡设计以及怪物AI设计。
