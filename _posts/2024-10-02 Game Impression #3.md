@@ -7,7 +7,7 @@ tags: combat analysis
 categories: analysis
 ---
 
-This blog is written for the assignment of the GSND 5111 course. We are required to play a RPG game and write thoughts about it.
+This blog is written for the assignment of the GSND 5111 course. We are required to play a Action Adventure game and write thoughts about it.
 
 Before starting this assignment, I spent a long time thinking about which game to analyze, and honestly, I struggled a lot. I really love Sekiro and Dark Souls 3—they’re at the top of my list, especially Sekiro, which is my absolute favorite. I have so many things I want to praise about its combat and level design. In fact, it’s because of Sekiro that I decided to become a game designer. But because I love these two games, or this type of game so much, I’ve already seen tons of other people's analyses, which could influence mine. So today, I’m not going to talk about those two games. Instead, I’ve chosen to focus on the Assassin's Creed series.
 
