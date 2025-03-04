@@ -405,6 +405,11 @@ ninja.data = [{
           description: "德式桌游",
           section: "Projects",handler: () => {
               window.location.href = "/projects/City%20of%20Tech/";
+            },},{id: "projects-死亡卡牌",
+          title: '死亡卡牌',
+          description: "卡牌Roguelike",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/DeathCards/";
             },},{id: "projects-dokidokivirus",
           title: 'DokiDokiVirus',
           description: "弹幕射击",
@@ -425,11 +430,6 @@ ninja.data = [{
           description: "文字冒险",
           section: "Projects",handler: () => {
               window.location.href = "/projects/%E6%98%AF%E5%90%A6/";
-            },},{id: "projects-死亡卡牌",
-          title: '死亡卡牌',
-          description: "卡牌Roguelike",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%E6%AD%BB%E4%BA%A1%E5%8D%A1%E7%89%8C/";
             },},{
         id: 'social-email',
         title: 'email',
