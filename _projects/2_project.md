@@ -28,6 +28,77 @@ giscus_comments: true
         {% include figure.liquid loading="eager" path="assets/img/book_covers/玩家行为.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    玩家行为总览
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/move.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/jump.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/扒住墙.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    跑、跳、墙壁抓取
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/蹬墙跳-1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/蹬墙跳-2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/蹬墙跳-3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    攀墙跳
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/重力2-1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/重力2-2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/重力2-3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    重力子弹
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/反冲1-1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/反冲1-2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    反冲子弹
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/磁力2-1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/磁力2-2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    磁力子弹
+</div>
 
 1. 分为基本行为和射击行为
 
@@ -35,7 +106,25 @@ giscus_comments: true
 
 3. 射击行为随着关卡进程会逐步获取，包括攻击子弹、重力子弹、反弹子弹、磁力子弹
 
-<strong style="font-size: 20px;">2. 核心玩法循环</strong>
+<strong style="font-size: 20px;">2. 特殊设计：人抢分离</strong>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/人枪分离.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+1. 在设计初期，我们选择了玩家持枪攻击的方式。然而，在进行整合时，由于枪支需要跟随鼠标，当玩家持枪时会出现许多问题，例如：
+   
+   ① 玩家需要360°射击，如果玩家持枪，角色会不停旋转，导致移动不流畅；
+   
+   ② 手臂与墙壁之间的角度也会在使用磁性子弹时造成问题。
+
+因此，我们采用了人枪分离设计，将枪支完全与角色分开。
+
+3. 另外，我们发现，由于枪支跟随玩家，二者之间会存在相对距离，这会导致子弹的射击位置和反馈功能与玩家之间存在一定的差异，要求玩家自行判断。这种设计方式将增加游戏的策略性和可玩性。
+
+<strong style="font-size: 20px;">3. 核心玩法循环</strong>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -67,7 +156,7 @@ giscus_comments: true
 
 <strong style="font-size: 24px;">怪物设计</strong>
 
-<strong style="font-size: 20px;">1. 小怪AI设计</strong>
+<strong style="font-size: 20px;">1. 小怪设计</strong>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -84,12 +173,27 @@ giscus_comments: true
 
 2. 由于项目比起动作游戏来说更偏向于平台游戏，因此小怪在该项目中的重要性低于相关障碍物。甚至移动病毒更偏向于障碍物而非小怪。
 
-<strong style="font-size: 20px;">2. BOSS AI设计</strong>
+<strong style="font-size: 20px;">2. BOSS设计</strong>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/book_covers/BOSS AI.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="caption">
+    BOSS AI设计
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/BOSS Q.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/book_covers/BOSS.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    BOSS美术设计
 </div>
 
 1. 想尽量将BOSS的AI做的复杂一些，让玩家在最后的时候将情绪递到最高
