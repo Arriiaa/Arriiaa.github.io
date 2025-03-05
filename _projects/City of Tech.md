@@ -233,3 +233,41 @@ giscus_comments: false
 </div>
 
 多余的资源需要退回。
+
+<strong style="font-size: 24px;">游戏节奏</strong>
+
+游戏的整体节奏分为两个阶段：
+
+1. **准备阶段：**主要集中在资源收集，玩家了解要兑换的项目卡，并努力收集尽可能多的资源。
+
+2. **互动阶段：**主要集中在合作与竞争，玩家在获得一定数量的项目卡后，合作以赚取更多积分。
+
+<strong style="font-size: 24px;">数值设计</strong>
+
+游戏的核心是资源交换和合作竞争，因此数值设计围绕**资源交换**展开。
+
+<strong style="font-size: 20px;">1. 资源分级</strong>
+
+<strong style="font-size: 20px;">2. 转换公式</strong>
+
+<strong style="font-size: 20px;">3. 数值常数</strong>
+
+| 列名 | 描述 | 值 |
+|------|------|----|
+| A    | Foundation coefficient | 1 |
+| B    | Conversion coefficient of superior resources | 0.2 |
+| C    | Building coefficient | 3 |
+| D    | Price : Point | 4 |
+| E    | Num of Rounds : Point | 4 |
+| F    | Basic resource expectations per round | 2 |
+| G    | Coefficient(Lv5 resource&Point building) | 0.75 |
+| H    | Coefficient(Lv4 resource&Point building) | 0.45 |
+| I    | Point Building Point | 10 |
+
+<strong style="font-size: 20px;">3. 数值公式</strong>
+
+
+
+
+
+
