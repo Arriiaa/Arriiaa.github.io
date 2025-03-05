@@ -14,15 +14,16 @@ giscus_comments: false
 
 游戏融合了 Roguelike 机制与成长式卡牌升级系统，玩家可选择不同能力强化自身，并利用分裂细胞机制策略性地战斗。
 
+<strong style="background-color: yellow;">在当前主页中，仅介绍游戏机制和玩家测评后的反馈内容，若想看具体设计，请移步设计文档</strong>
+<!-- 添加文档链接 -->
+<strong style="font-size: 24px;">设计文档</strong>
+<p>点击查看设计文档：</p>
+<a href="https://docs.google.com/document/d/1d1qS7FObiesjMkHP4CwzUQmkBtA0QuniCpLt_OdkiEU/edit?tab=t.0" target="_blank" class="btn btn-primary">点击查看文档</a>
+
 <!-- 添加视频链接 -->
 <strong style="font-size: 24px;">视频演示</strong>
 <p>点击查看视频演示：</p>
 <a href="https://www.youtube.com/watch?v=MMTJhMXP3fU" target="_blank" class="btn btn-primary">点击观看视频</a>
-
-<!-- 添加文档链接 -->
-<strong style="font-size: 24px;">英文文档</strong>
-<p>点击查看英文文档：</p>
-<a href="https://docs.google.com/document/d/1d1qS7FObiesjMkHP4CwzUQmkBtA0QuniCpLt_OdkiEU/edit?tab=t.0" target="_blank" class="btn btn-primary">点击查看文档</a>
 
 <!-- 添加文档链接 -->
 <strong style="font-size: 24px;">游玩</strong>
@@ -31,48 +32,25 @@ giscus_comments: false
 
 <strong style="font-size: 24px;">游戏简介</strong>
 
-《DokiDoki Virus》是一款生存游戏，玩家需要在进攻与防御两种形态之间切换，以对抗不断扩散的病毒。玩家必须在“吞噬”和“射击”两种形态之间策略性地切换，并通过卡牌系统升级能力，以求生存并阻止病毒蔓延至整个屏幕。
-
-<strong style="font-size: 24px;">游戏概述</strong>
-
-《DokiDoki Virus》为玩家提供了一个动态战场，病毒会在屏幕中央不断扩散。玩家必须攻击病毒边缘，吞噬小型敌人，并升级自身能力以求生存。独特的双形态机制增加了策略深度，要求玩家在战斗中平衡进攻与防御。此外，游戏引入了轻度 RPG 元素，玩家可以通过卡牌升级系统提升自身能力。
-
-<strong style="font-size: 24px;">玩家体验</strong>
-
-<strong style="font-size: 20px;">1. 背景与游戏场景</strong>
-
-游戏设定在一个微观环境中，玩家需要对抗迅速扩散的病毒。视觉设计采用暗色调的细胞主题，以增强紧张感和紧迫感。病毒和小型敌人采用明亮的对比色，以引导玩家注意力。随着病毒增长，环境会动态变化，模拟病毒扩散的过程。游戏还包括粒子特效、脉动动画以及病毒边缘的光晕效果，以增强危机感。
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/publication_preview/1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    玩家可以通过使用不同的技能卡来应对复杂的游戏场景
-</div>
 
-<strong style="font-size: 20px;">2. 音频体验</strong>
+《病毒对抗》是一款快节奏的生存射击游戏，玩家需要在病毒持续扩张的威胁下通过灵活操作和策略选择来生存。游戏引入了双重玩家形态与卡牌升级系统，使得玩法充满深度与变化。
 
-音效设计在营造沉浸感方面起到了重要作用。背景音乐会根据游戏情况动态变化：
+<strong style="font-size: 20px;">1. 背景故事</strong>
 
-①在游戏开始时，音乐低沉而压抑；
+地球受到未知病毒的入侵，玩家作为一名实验体，能够通过吞噬病毒小怪获取能量并不断分裂，以阻止病毒占领整个屏幕。
 
-②在紧张时刻，音乐节奏加快，增强战斗氛围。
+<strong style="font-size: 20px;">2. 核心目标</strong>
 
-<strong style="font-size: 18px;">特定音效设计</strong>
+坚持到病毒未能充满屏幕的指定时间。
 
-①吞噬模式（红色）： 低沉缓慢的声音强调玩家沉重的动作，同时伴有微弱的咀嚼声，表现出吸收过程。
+<strong style="font-size: 20px;">3. 主要机制</strong>
 
-②射击模式（白色）： 清脆的射击和撞击声突出精准和攻击感。
-
-③病毒扩散： 伴随上升的警报声，提示威胁升级。
-
-④卡牌升级区： 进入该区域时，时间会减缓，并伴有柔和的环境音，给予玩家短暂的决策时间。
-
-<strong style="font-size: 24px;">基础属性</strong>
-
-<strong style="font-size: 20px;">角色</strong>
+<strong style="font-size: 18px;">①. 双重形态</strong>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -83,43 +61,177 @@ giscus_comments: false
     </div>
 </div>
 <div class="caption">
-    一个小型机器人，目标是消灭所有病毒
+    游戏引入“双形态系统”，允许玩家在 吞噬模式 和 射击模式 之间切换，以适应不同挑战。
 </div>
 
-状态
+<strong>射击形态（白色）：</strong>玩家能够快速移动并攻击病毒或小怪，适合主动输出，但防御力较弱。
 
-等级
+<strong>吞噬形态（红色）：</strong>通过吞噬小怪获取饱腹感，同时积累毒素。此形态下防御力较高，但无法攻击且移动较慢。
 
-子细胞数量
-
-移动速度
-
-毒素抗性
-
-物理抗性
-
-子弹伤害与速度
-
-毒素积累： 随时间增加或减少
-
-生命值： 基础生命值 + 子细胞总生命值（子细胞优先消耗）
-
-饱食度： 当饱食度满时，玩家会分裂出新的子细胞，完成一次升级，并重置饱食度数值
-
-
-<strong style="font-size: 20px;">1. 背景与游戏场景</strong>
+<strong style="font-size: 18px;">②. 卡牌系统</strong>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/book_covers/move.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/book_covers/jump.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/book_covers/扒住墙.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/4.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    跑、跳、墙壁抓取
+    选择卡牌界面
 </div>
+击杀小怪或缩小病毒边界掉落金币，可用来购买不同效果的卡牌，每次升级都允许从新的卡组中选择。
+
+<strong style="font-size: 18px;">③. 动态难度</strong>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/5.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    游戏后期
+</div>
+随着时间推移，病毒扩张速度逐渐加快，小怪生成频率与攻击力也会提升。
+
+<strong style="font-size: 20px;">4. 游戏特色</strong>
+
+①动态战斗与策略切换的结合，考验玩家在高压力下的决策能力。
+
+②通过升级构建属于自己的“流派”，提供丰富的重玩价值。
+
+③随机生成的病毒扩展与小怪生成路径，确保每局体验都独一无二。
+
+<strong style="font-size: 24px;">设计考虑</strong>
+
+本游戏设计中面临的关键问题包括：
+
+1.双形态切换的决策价值：射击与吞噬在不同情况下均应具备独特且有吸引力的使用场景，防止一种形态压制另一种。
+
+2.卡组设计的策略性：如何让卡牌效果具有长期价值，避免升级后的卡组选择过于单一或无意义。
+
+3.节奏与难度平衡：确保病毒扩张与玩家成长的节奏匹配，让挑战感逐渐提升但不过于压迫。
+
+4.画面反馈：在快速节奏的情况下，如何通过视觉提示帮助玩家清晰理解当前状态（如毒素积累、饱腹感等）。
+
+<strong style="font-size: 24px;">测试目标</strong>
+
+我们通过测试聚焦以下目标：
+
+1.验证核心机制的平衡性：分析玩家在双形态之间的切换频率与实际效果，确保两种玩法均有合理的适用场景。
+
+2.测试升级与卡牌的多样性：观察玩家在不同卡组间的选择倾向，并收集他们对卡牌效果的直观感受。
+
+3.分析病毒扩张的节奏：记录玩家在不同阶段的生存时间，判断病毒增长速度是否合理且具有挑战性。
+
+4.观察视觉反馈有效性：测试当前状态提示（如毒素条、饱腹感提示）是否足够清晰，是否需要进一步优化。
+
+<strong style="font-size: 24px;">游戏测试</strong>
+
+<strong style="font-size: 20px;">1. 测试流程</strong>
+
+每位参与者的测试流程如下：
+
+<strong>介绍</strong>
+
+    1.向玩家介绍游戏背景、目标以及核心机制（形态切换、病毒扩张、卡牌升级）。
+    
+    2.简要说明测试内容与目标，保证参与者清楚数据记录和问卷环节不会影响他们的表现。
+    
+<strong>实际测试</strong>
+
+    1.玩家体验单一测试版本的完整游戏流程。
+    
+    2.游戏结束后，记录游戏日志数据（存活时间、形态切换频率、分裂次数等）。
+    
+<strong>问卷与访谈</strong>
+
+    玩家完成一份问卷，主要包括以下问题：
+    
+    1.游戏节奏是否适中？
+    
+    2.双形态是否具有平衡性与使用价值？
+    
+    3.病毒扩张速度是否带来了合理的挑战？
+    
+    4.卡牌系统是否提供了足够的策略选择？
+
+<strong style="font-size: 20px;">2. 测试参与者</strong>
+
+参与者：本次测试共有 8名参与者，均为具有一定的游戏经验。
+
+平均时长：每位参与者完成测试需要约20-25分钟，包括游戏时间与反馈环节。
+
+<strong style="font-size: 24px;">结果</strong>
+
+本次测试基于单一版本进行，收集了参与者的关键表现数据，包括存活时间、形态切换频率、死亡原因、卡牌选择偏好等。以下为测试结果汇总。
+
+| 数据项                    | 最小值 | 最大值 | 平均值  |
+|--------------------------|------|------|------|
+| 玩家存活时间（分钟）      | 4.2  | 7.8  | 5.6  |
+| 射击形态使用时间占比      | 55%  | 70%  | 62%  |
+| 吞噬形态使用时间占比      | 30%  | 45%  | 38%  |
+| 死亡原因（病毒扩张）      | -    | -    | 60%  |
+| 死亡原因（生命耗尽）      | -    | -    | 40%  |
+| 卡牌选择（防御类）        | 65%  | 85%  | 75%  |
+| 卡牌选择（攻击类）        | 15%  | 35%  | 25%  |
+
+随着熟练度的上升，大多数玩家能够熟练使用“吞噬”和“射击”状态，但在毒素积累接近上限时，约 60% 的玩家未能及时切换到正确的状态，造成了死亡或错失最佳机会。玩家的操作大多合理，但由于缺乏明显的视觉反馈，一些玩家反应过慢或选择错误。升级系统虽然提供了丰富的选择，但由于时间减速，部分玩家在选择时显得过于匆忙。
+
+| 玩家行为观察  | 描述  |
+|-------------|-----------------------------|
+| 状态切换    | 在毒素接近上限时，部分玩家未能及时判断是否进入“吞噬”状态。 |
+| 升级选择    | 玩家在选择卡牌时，由于时间减速，虽然有更多时间，但仍存在选择困难的问题。 |
+| 战术决策    | 玩家通常能够合理使用“吞噬”和“射击”状态，但在敌人过多时，难以做出最佳决策。 |
+
+<strong style="font-size: 20px;">死亡原因分析</strong>
+
+玩家死亡的主要原因有两种：
+
+1.病毒扩展过快： 50% 的玩家在病毒充满屏幕时死亡，特别是在敌人过多时，病毒难以控制。
+
+2.敌人攻击范围不清晰： 40% 的玩家提到小怪的攻击范围难以辨认，尤其是近战敌人，导致多次意外死亡。
+
+<strong style="font-size: 20px;">访谈</strong>
+
+访谈中的反馈表明，玩家对“双状态机制”和“卡牌系统”有较高的评价，但仍存在改进空间。
+
+<strong style="font-size: 18px;">双状态机制</strong>
+- 80% 的玩家喜欢“吞噬”和“射击”状态切换的策略性，认为其增加了游戏的深度。
+- 然而，60% 的玩家反映，在进入“吞噬”状态时，由于毒素累积无法再切换，缺乏相应的视觉提示和音效提示，导致操作失误。
+
+<strong style="font-size: 18px;">卡牌系统</strong>
+- 70% 的玩家认为卡牌升级系统有趣且富有挑战，但 30% 的玩家感到卡牌效果描述不够直观，尤其是在紧张的游戏场景下，难以快速理解每张卡牌的作用。
+
+| 访谈反馈   | 玩家意见  |
+|-----------|----------------------------------------------------------------|
+| 双状态机制 | 80% 玩家认为机制有趣，但缺乏清晰反馈，尤其在切换状态时缺少视觉或音效提示。 |
+| 卡牌系统   | 70% 玩家喜欢卡牌升级，但部分玩家对效果描述不清、卡牌选择过于复杂感到困惑。 |
+| 难度       | 一半玩家认为游戏难度较高，尤其是初期阶段敌人太多，玩家难以适应核心机制。 |
+
+---
+
+<strong style="font-size: 20px;">调查问卷</strong>
+
+玩家对游戏的各个方面进行了评分（5 分制），以下是满意度的具体数据：
+
+| 评分项        | 平均得分 | 反馈  |
+|--------------|--------|------------------------------------------------------|
+| 视觉设计    | 4.4    | 玩家对视觉效果普遍满意，尤其是在敌人和病毒的设计上，但认为小怪的攻击范围需更清晰。 |
+| 音效设计    | 4.1    | 音效普遍较好，但缺少关键时刻的提示音，尤其是毒素满值时缺乏警告声音。 |
+| 升级系统    | 4.2    | 玩家对卡牌系统的设计感到满意，但希望卡牌效果更加直观，减少选择难度。 |
+| 难度设计    | 3.6    | 游戏难度较高，部分玩家认为初期敌人的生成速率过快，导致新手玩家难以适应。 |
+| 整体游戏体验 | 4.0    | 大多数玩家表示游戏体验良好，但对进阶难度和中期目标提出了改进建议。 |
+
+---
+
+<strong style="font-size: 20px;">关键结果总结</strong>
+
+根据屏幕录制、访谈和问卷调查的结果，以下是本次测试的主要发现：
+
+#### 双状态机制：
+- 大多数玩家对双状态的使用表现积极，但切换机制缺乏明确的视觉反馈和音效提示，导致操作不够流畅。
+
+#### 卡牌系统：
+- 虽然卡牌系统在增加游戏深度方面发挥了作用，但卡牌选择界面复杂，玩家在快速选择时容易感到困惑。
+
+#### 游戏难度：
+- 游戏的难度曲线对于新手玩家来说较为陡峭，特别是在敌人生成密度较高的早期阶段，容易让玩家感到不知所措。
