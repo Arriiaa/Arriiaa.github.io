@@ -19,6 +19,11 @@ giscus_comments: false
 <p>点击下面的链接查看视频演示：</p>
 <a href="https://www.bilibili.com/video/BV1444y1k7Ci/" target="_blank" class="btn btn-primary">点击观看视频</a>
 
+<!-- 添加文档链接 -->
+<strong style="font-size: 24px;">游玩</strong>
+<p>点击进行游玩：</p>
+<a href="https://arriiaawang.itch.io/lan" target="_blank" class="btn btn-primary">点击游玩</a>
+
 <strong style="font-size: 24px;">游戏玩法</strong>
 
 <strong style="font-size: 20px;">1. 玩家行为</strong>
