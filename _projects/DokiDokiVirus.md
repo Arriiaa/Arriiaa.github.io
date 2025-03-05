@@ -15,6 +15,7 @@ giscus_comments: false
 游戏融合了 Roguelike 机制与成长式卡牌升级系统，玩家可选择不同能力强化自身，并利用分裂细胞机制策略性地战斗。
 
 <strong style="background-color: yellow;">在当前主页中，仅介绍游戏机制和玩家测评后的反馈内容，若想看具体设计，请移步设计文档</strong>
+
 <!-- 添加文档链接 -->
 <strong style="font-size: 24px;">设计文档</strong>
 <p>点击查看设计文档：</p>
