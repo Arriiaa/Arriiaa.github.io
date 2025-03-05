@@ -248,6 +248,12 @@ giscus_comments: false
 
 <strong style="font-size: 20px;">1. 资源分级</strong>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/classifi.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 <strong style="font-size: 20px;">2. 转换公式</strong>
 
 **LV.1 资源** → **金币资源**
