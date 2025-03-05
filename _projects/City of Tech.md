@@ -254,15 +254,16 @@ giscus_comments: false
 
 | 列名 | 描述 | 值 |
 |------|------|----|
-| A    | Foundation coefficient | 1 |
-| B    | Conversion coefficient of superior resources | 0.2 |
-| C    | Building coefficient | 3 |
-| D    | Price : Point | 4 |
-| E    | Num of Rounds : Point | 4 |
-| F    | Basic resource expectations per round | 2 |
-| G    | Coefficient(Lv5 resource&Point building) | 0.75 |
-| H    | Coefficient(Lv4 resource&Point building) | 0.45 |
-| I    | Point Building Point | 10 |
+| A    | 基础系数 | 1 |
+| B    | 高级资源转换系数 | 0.2 |
+| C    | 建筑系数 | 3 |
+| D    | 价格 : 点数 | 4 |
+| E    | 回合数 : 点数 | 4 |
+| F    | 每回合基本资源预期 | 2 |
+| G    | 系数（Lv5资源与点数建筑） | 0.75 |
+| H    | 系数（Lv4资源与点数建筑） | 0.45 |
+| I    | 点数建筑点数 | 10 |
+
 
 <strong style="font-size: 20px;">3. 数值公式</strong>
 
