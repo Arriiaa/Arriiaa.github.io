@@ -295,7 +295,7 @@ giscus_comments: false
 | I    | 点数建筑点数 | 10 |
 
 
-<strong style="font-size: 20px;">3. 数值公式</strong>
+<strong style="font-size: 20px;">4. 数值公式</strong>
 
 ①**LV.1 资源**:  
 
