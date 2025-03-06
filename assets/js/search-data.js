@@ -30,7 +30,51 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-game-impression-3-assassin-39-s-creed-series",
+        },{id: "post-game-impression-5-hi-fi-rush",
+      
+        title: "Game Impression #5: Hi-Fi Rush",
+      
+      description: "A Game Analysis of Hi-Fi Rush",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/Game-Impression-10/";
+        
+      },
+    },{id: "post-game-impression-5-ff14",
+      
+        title: "Game Impression #5: FF14",
+      
+      description: "A Game Analysis of FF14",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/Game-Impression-9/";
+        
+      },
+    },{id: "post-game-impression-5-2048",
+      
+        title: "Game Impression #5: 2048",
+      
+      description: "A Game Analysis of 2048",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/GameImpression-5/";
+        
+      },
+    },{id: "post-game-impression-4-ori-and-the-blind-forest-will-o-the-wisps",
+      
+        title: "Game Impression #4: Ori and the Blind Forest/ Will o the Wisps",
+      
+      description: "A Game Analysis of Ori and the Blind Forest/ Will o the Wisps",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/GameImpression-4/";
+        
+      },
+    },{id: "post-game-impression-3-assassin-39-s-creed-series",
       
         title: "Game Impression #3: Assassin&#39;s Creed series",
       
@@ -38,7 +82,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2024/GameImpression1.md/";
+          window.location.href = "/blog/2024/GameImpression1/";
         
       },
     },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
