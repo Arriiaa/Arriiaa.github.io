@@ -67,7 +67,13 @@ giscus_comments: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/techbreakthrough.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/publication_preview/breakthrough.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/techproject.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
   <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/publication_preview/project.png" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -87,6 +93,17 @@ giscus_comments: false
 
 <strong style="font-size: 20px;">2. 高级建筑卡&积分建筑卡&里程碑卡</strong>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/building1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/building.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/milestone1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/publication_preview/superiorbuilding.png" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -250,7 +267,7 @@ giscus_comments: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/publication_preview/classifi.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/classification.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
