@@ -5,6 +5,7 @@ date: 2024-10-02 14:24:02
 description: A Game Analysis of the Combat System in Assassin's Creed
 tags: combat analysis
 categories: analysis
+thumbnail: assets/img/9.jpg
 ---
 
 <strong style="background-color: yellow;">This blog is written for the assignment of the GSND 5111 course. We are required to play a Action Adventure game and write thoughts about it.</strong>
