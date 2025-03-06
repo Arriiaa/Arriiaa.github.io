@@ -7,7 +7,7 @@ tags: narrative analysis
 categories: analysis
 ---
 
-This blog is written for the assignment of the GSND 5111 course. We are required to play a Platformer game and write thoughts about it.
+<strong style="background-color: yellow;">This blog is written for the assignment of the GSND 5111 course. We are required to play a Platformer game and write thoughts about it.<\strong>
 
 Ori is undoubtedly my favorite indie game. Whether it's Ori and the Blind Forest or Ori and the Will of the Wisps, both hold an irreplaceable place in my heart. The beauty, atmosphere, and emotional depth of these games are unlike anything else I’ve experienced. Today, I’d like to focus on Ori and the Will of the Wisps and share why it resonates with me so deeply.
 
