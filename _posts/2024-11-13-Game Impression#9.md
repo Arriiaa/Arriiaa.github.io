@@ -7,7 +7,7 @@ tags: game analysis FF14
 categories: analysis
 ---
 
-This blog is written for the assignment of the GSND 5111 course. We are required to play a MMO game and write thoughts about it.
+<strong style="background-color: yellow;">This blog is written for the assignment of the GSND 5111 course. We are required to play a MMO game and write thoughts about it.</strong>
 
 This week, I had the chance to experience FF14. As an experienced MMO player, I’ve previously enjoyed games like Blade & Soul, JX3, and Moonlight Blade. I’d heard a lot about FF14 and was quite intrigued, so I bought a max-level account and played for around five hours (in my opinion, the true MMO experience often begins once you reach max level). What attracts me most to MMOs are the variety of dungeon battles and the social aspects. Today, I’d like to focus on FF14's combat.
 
