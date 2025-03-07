@@ -30,9 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-game-impression-5-hi-fi-rush",
+        },{id: "post-game-impression-10-hi-fi-rush",
       
-        title: "Game Impression #5: Hi-Fi Rush",
+        title: "Game Impression #10: Hi-Fi Rush",
       
       description: "A Game Analysis of Hi-Fi Rush",
       section: "Posts",
