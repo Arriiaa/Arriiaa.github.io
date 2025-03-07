@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Game Impression #5: Hi-Fi Rush"
+title: "Game Impression #10: Hi-Fi Rush"
 date: 2024-11-13 14:24:02
 description: A Game Analysis of Hi-Fi Rush
 tags: game analysis Rhythm
