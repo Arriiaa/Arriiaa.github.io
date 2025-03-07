@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Game Impression #5: FF14"
+title: "Game Impression #9: FF14"
 date: 2024-11-13 14:24:02
 description: A Game Analysis of FF14
 tags: game analysis FF14
