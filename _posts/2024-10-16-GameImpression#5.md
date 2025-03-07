@@ -7,7 +7,7 @@ tags: game analysis puzzle
 categories: analysis
 ---
 
-This blog is written for the assignment of the GSND 5111 course. We are required to play a Puzzle game and write thoughts about it.
+<strong style="background-color: yellow;">This blog is written for the assignment of the GSND 5111 course. We are required to play a Puzzle game and write thoughts about it.</strong>
 
 2048 has become a permanent game on my phone. Unlike some other mobile gamers who might prefer more intense or strategic games, my phone is filled with games like 2048 and Eggshell Agent. These games are perfect for short, casual play sessions, making them an ideal fit for my fragmented free time. They don’t require a lot of mental energy or high-level focus, which makes them a unique form of entertainment for me. I find 2048 especially relaxing because of its simple controls — just swiping up, down, left, or right — which allows me to quickly get into the game without a steep learning curve.
 
