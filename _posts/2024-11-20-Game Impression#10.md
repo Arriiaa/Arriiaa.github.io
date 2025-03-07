@@ -7,7 +7,8 @@ tags: game analysis Rhythm
 categories: analysis
 ---
 
-This blog is written for the assignment of the GSND 5111 course. We are required to play a Rhythm game and write thoughts about it.
+<strong style="background-color: yellow;">This blog is written for the assignment of the GSND 5111 course. We are required to play a Rhythm game and write thoughts about it.</strong>
+
 
 Right before starting this assignment, I played Hi-Fi Rush, a game that's famous for blending rhythm and action seamlessly. Before this, I’d tried plenty of games that mix music elements into their gameplay, like the roguelike-inspired Crypt of the NecroDancer and the FPS-driven Metal: Hellsinger. But Hi-Fi Rush totally blew me away with how well it combined rhythm and action.
 
