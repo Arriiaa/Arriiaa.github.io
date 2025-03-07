@@ -41,9 +41,9 @@ ninja.data = [{
           window.location.href = "/blog/2024/Game-Impression-10/";
         
       },
-    },{id: "post-game-impression-5-ff14",
+    },{id: "post-game-impression-9-ff14",
       
-        title: "Game Impression #5: FF14",
+        title: "Game Impression #9: FF14",
       
       description: "A Game Analysis of FF14",
       section: "Posts",
